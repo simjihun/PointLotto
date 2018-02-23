@@ -1,17 +1,18 @@
 package com.ara.sim.pointlotto;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import android.view.Window;
+
+import static com.ara.sim.pointlotto.R.layout.activity_login;
 
 public class LoginActivity extends Activity {
 
-    //start
+    //kakao api 연동
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        setContentView(activity_login);
     }
 }
