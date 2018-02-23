@@ -1,13 +1,14 @@
-package com.ara.sim.pointlotto;
+package com.ara.sim.pointlotto.login;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
+
+import com.ara.sim.pointlotto.R;
 
 public class IntroActivity extends Activity {
 
