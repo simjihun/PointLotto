@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.ara.sim.pointlotto.R;
 import com.ara.sim.pointlotto.login.com.ara.sim.pointlotto.main.MainActivity;
@@ -27,6 +28,7 @@ public class LoginActivity extends Activity {
             public void onClick(View v){
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(intent);
+                Toast.makeText(getApplicationContext(),"로그인 되었습니다.",Toast.LENGTH_LONG).show();
             }
         });
     }
